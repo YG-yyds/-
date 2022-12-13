@@ -79,7 +79,7 @@ VULNUS将来自漏洞和网络扫描仪(OpenVas, Nessus, LanGuard)的数据结�
 
 #### 计算目标环境得分
 
-目标环境得分TE(es)被定义为使用$ es=<vulnerability,node> $的攻击路径的比例(在[0,10]范围内归一化)。
+目标环境得分TE(es)被定义为使用$$es=<vulnerability,node>$$的攻击路径的比例(在[0,10]范围内归一化)。
 
 $$ TE(es) = 10 \cdot MinMaxNormalization( \frac{|S(es)|}{|AP|} ) $$
 
